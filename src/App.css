@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #fff9ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background: #4369b2;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background: #4369b2;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftNav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.countryHeading {
+  display: flex;
+  background-color: #5788e5;
+  height: 150px;
+}
+
+.countryHeadingImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryHeadingImage img {
+  width: 100px;
+}
+
+.countryHeadingTitle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.countryHeadingTitle h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.countrylistTitle {
+  background-color: #35548b;
+  padding: 10px 10px;
+}
+
+.countrylistTitle h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff9ff;
+}
+
+.countrylistItem {
+  flex: 50%;
+  background-color: rgba(66, 105, 176, 0.8);
+  background-size: 40% 40%;
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: 20px;
+  
+}
+
+.active-link {
+  height: 160px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  margin: 10px;
+}
+
+.countrylistItem h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.countryDetails {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(odd) {
+  background-color: #4369b0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:nth-child(even) {
+  background-color: #3f62a4;
 }
