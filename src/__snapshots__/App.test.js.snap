@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component test Metrics renders correctly 1`] = `
+<div
+  className="country"
+>
+  <div
+    className="countryHeading"
+  >
+    <div
+      className="countryHeadingImage"
+    >
+      <img
+        alt="Africa map"
+        src="africa.png"
+      />
+    </div>
+    <div
+      className="countryHeadingTitle"
+    >
+      <div>
+        <h1>
+          AFRICA
+        </h1>
+        <span>
+          The heart of hope
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="countrylistTitle"
+  >
+    <h3>
+      LIST OF COUNTRIES
+    </h3>
+  </div>
+  <ul />
+</div>
+`;
+
+exports[`component test Simulation of user click on Morocco 1`] = `
+<div
+  className="country"
+/>
+`;
+
+exports[`component test renders correctly 1`] = `
+<div
+  className="country"
+>
+  <div
+    className="countryHeading"
+  >
+    <div
+      className="countryHeadingImage"
+    >
+      <img
+        alt="Africa map"
+        src="africa.png"
+      />
+    </div>
+    <div
+      className="countryHeadingTitle"
+    >
+      <div>
+        <h1>
+          AFRICA
+        </h1>
+        <span>
+          The heart of hope
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="countrylistTitle"
+  >
+    <h3>
+      LIST OF COUNTRIES
+    </h3>
+  </div>
+  <ul />
+</div>
+`;
