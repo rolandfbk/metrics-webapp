@@ -11,6 +11,12 @@
 - Redux
 - Webpack
 
+
+## Video Presentation
+
+[Click to watch](https://www.loom.com/share/88e751f44fc4478ea99a5bc2c511c8ab)
+
+
 ## Live Demo
 
 [Live Demo Link](https://nimble-pegasus-5744ed.netlify.app/)
