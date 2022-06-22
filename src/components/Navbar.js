@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <header>
       <nav>
-        <div aria-hidden onClick={() => navigate(-1)}>
+        <div style={{ cursor: 'pointer' }} aria-hidden onClick={() => navigate(-1)}>
           <span className="leftNav">
             <FontAwesomeIcon icon={faChevronLeft} />
             Africa
