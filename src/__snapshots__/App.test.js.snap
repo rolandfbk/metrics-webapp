@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`component test CountryDetails renders correctly 1`] = `
+<div
+  className="country"
+/>
+`;
+
 exports[`component test Metrics renders correctly 1`] = `
 <div
   className="country"
@@ -34,52 +40,40 @@ exports[`component test Metrics renders correctly 1`] = `
     <h3>
       LIST OF COUNTRIES
     </h3>
-  </div>
-  <ul />
-</div>
-`;
-
-exports[`component test Simulation of user click on Morocco 1`] = `
-<div
-  className="country"
-/>
-`;
-
-exports[`component test renders correctly 1`] = `
-<div
-  className="country"
->
-  <div
-    className="countryHeading"
-  >
-    <div
-      className="countryHeadingImage"
+    <form
+      className="book-form"
+      onSubmit={[Function]}
     >
-      <img
-        alt="Africa map"
-        src="africa.png"
+      <input
+        className="inputcountryTitle"
+        onChange={[Function]}
+        placeholder="Search by country"
+        type="text"
+        value=""
       />
-    </div>
-    <div
-      className="countryHeadingTitle"
+      <button
+        className="submit-btn"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <button
+      className="submit-btn"
+      onClick={[Function]}
+      type="button"
     >
-      <div>
-        <h1>
-          AFRICA
-        </h1>
-        <span>
-          The heart of hope
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    className="countrylistTitle"
-  >
-    <h3>
-      LIST OF COUNTRIES
-    </h3>
+      ClearSearch
+    </button>
   </div>
   <ul />
 </div>
+`;
+
+exports[`component test NavLink to match snapshot 1`] = `
+<a
+  className=""
+  href="/countryDetails/1"
+  onClick={[Function]}
+/>
 `;

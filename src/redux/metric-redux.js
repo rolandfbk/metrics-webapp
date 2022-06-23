@@ -1,4 +1,5 @@
-const GET_DATA_FROM_API = 'travelers-hub/mission/GET_DATA_FROM_API';
+const GET_DATA_FROM_API = 'GET_DATA_FROM_API';
+const DATA_FILTER = 'DATA_FILTER';
 
 export const getDataFromApi = async (dispatch) => {
   try {
@@ -18,8 +19,17 @@ export const getDataFromApi = async (dispatch) => {
   }
 };
 
+export const countryFilter = (search) => ({ type: DATA_FILTER, payload: search });
+
 const metricsReducer = (state = [], action) => {
   switch (action.type) {
+    case DATA_FILTER: {
+      const arr = state.filter((country) => {
+        const newCountry = country.shortName.toLowerCase();
+        return newCountry.includes(action.payload.toLowerCase());
+      });
+      return arr;
+    }
     case GET_DATA_FROM_API: {
       const arr = [];
       let obj;

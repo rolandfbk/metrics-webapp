@@ -15,7 +15,7 @@ const Navbar = () => {
           </span>
         </div>
         <div>
-          <span className="middleNav">Directory</span>
+          <span className="middleNav">Learn Africa</span>
         </div>
         <div>
           <span className="rightNav">

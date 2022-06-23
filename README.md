@@ -72,7 +72,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to [REST Countries](https://restcountries.com/), a free public API that allowed me to get data for this project
+- Thanks to [REST Countries](https://restcountries.com/), a free public API that allowed me to get data for this project.
+- **Nelson Sakwa**: I have used the template created by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) design the project
 
 ## 📝 License
 
