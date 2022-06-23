@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://nimble-pegasus-5744ed.netlify.app/)
+[Live Demo Link](https://gorgeous-biscuit-91843d.netlify.app/)
 
 
 ## Getting Started
